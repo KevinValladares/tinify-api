@@ -11,7 +11,7 @@ function setUpTinify() {
 
   if (!process.env.TINIFY_KEY) {
     console.log(
-        'no se encontro'
+        'no se encontro la api key'
     );
     process.exit(1);
   } 
